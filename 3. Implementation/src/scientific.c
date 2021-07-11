@@ -38,6 +38,7 @@ double square(double a)
 {
     double sq=1;
     sq=a*a;
+    return sq;
 }
 double power(double a,int n)
 {
