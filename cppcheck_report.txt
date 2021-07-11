@@ -1,0 +1,35 @@
+3. Implementation/src/scientific.c:121:11: style: Condition 'flag' is always true [knownConditionTrueFalse]
+    while(flag)
+          ^
+3. Implementation/src/scientific.c:119:14: note: Assignment 'flag=1', assigned value is 1
+    int flag=1;
+             ^
+3. Implementation/src/scientific.c:121:11: note: Condition 'flag' is always true
+    while(flag)
+          ^
+3. Implementation/src/scientific.c:35:12: error: Uninitialized variable: ans [uninitvar]
+    return ans;
+           ^
+3. Implementation/src/scientific.c:35:12: error: Uninitialized variable: ans [uninitvar]
+    return ans;
+           ^
+3. Implementation/src/scientific.c:27:9: note: Assuming condition is true
+    if(b==0)
+        ^
+3. Implementation/src/scientific.c:35:12: note: Uninitialized variable: ans
+    return ans;
+           ^
+3. Implementation/src/scientific.c:57:22: style: Variable 'fact' is assigned a value that is never used. [unreadVariable]
+    unsigned int fact=1;
+                     ^
+3. Implementation/src/scientific.c:66:6: style: Variable 'n' is assigned a value that is never used. [unreadVariable]
+    n=3;
+     ^
+3. Implementation/test/testcalculator.c:5:0: style: The function 'setUp' is never used. [unusedFunction]
+
+^
+3. Implementation/test/testcalculator.c:7:0: style: The function 'tearDown' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
