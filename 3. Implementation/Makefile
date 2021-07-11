@@ -1,42 +1,69 @@
+# Name of the project
+PROJECT_NAME = calculator
+
+# Output directory
+BUILD = build
+
 # All source code files
-SRC = maincalculator.c\
+SRC = main.c\
 src/scientific.c
 
 # All test source files
 TEST_SRC = src/scientific.c\
-test/testcalculator.c\
+test/test.c\
 unity/unity.c\
 
-INC = -Iunity\
--Iinc\
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
-ifdef OS
-   RM = del /q
-   FixPath = $(subst /,\,$1)
-   EXEC = exe
-else
-   ifeq ($(shell uname), Linux)
-      RM = rm -rf
-      FixPath = $1
-	  EXEC = out
-   endif
-endif
+# All include folders with header files
+INC	= -Iinc\
+-Iunity\
+-Itest\
 
+#Library Inlcudes
+#if working with CUnit 
+#INCLUDE_LIBS = -lcunit
+INCLUDE_LIBS =
 
-PROJECT_NAME = calculator
+# Project Output name
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
-$(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+# Document files
+DOCUMENTATION_OUTPUT = documentation/html
 
+# Default target built
+$(PROJECT_NAME):all
+
+# Run the target even if the matching name exists
+.PHONY: run clean test doc all
+
+all: $(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT)
+
+# Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./${PROJECT_NAME}
-doc:
-	make -C documentation
+	./$(PROJECT_OUTPUT)
 
+# Document the code using Doxygen
+#doc:
+#	make -C ./documentation
+
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
+
+
+#Coverage
+coverageCheck:$(BUILD)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
+# Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(PROJECT_NAME) documentation/html
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
-coverage:${PROJECT_NAME}
-	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(PROJECT_NAME)
-	./${PROJECT_NAME}
-	gcov -a src/scientific.c maincalculator.c
+# Create new build folder if not present
+$(BUILD):
+	mkdir build
