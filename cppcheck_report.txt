@@ -25,5 +25,11 @@
 3. Implementation/src/scientific.c:66:6: style: Variable 'n' is assigned a value that is never used. [unreadVariable]
     n=3;
      ^
+3. Implementation/test/test.c:16:0: style: The function 'setUp' is never used. [unusedFunction]
+
+^
+3. Implementation/test/test.c:18:0: style: The function 'tearDown' is never used. [unusedFunction]
+
+^
 nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
 
