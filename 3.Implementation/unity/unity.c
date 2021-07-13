@@ -6,7 +6,7 @@
 
 #include "unity.h"
 #include <stddef.h>
-
+#include<math.h>
 #ifdef AVR
 #include <avr/pgmspace.h>
 #else
