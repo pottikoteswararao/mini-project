@@ -46,10 +46,10 @@ double power(double a,int n)
     ans=pow(a,n);
     return ans;
 }
-int absolute(float a)
+double absolute(double a)
 {
-    int ans;
-    ans=abs(a);
+    double ans;
+    ans=fabs(a);
     return ans;
 }
 long long int factorial(int n)
