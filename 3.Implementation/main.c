@@ -51,8 +51,8 @@ int main()
         break;
 
         case 7:
-        scanf("%f",&z1);
-        printf("%d",absolute(z1));
+        scanf("%lf",&z1);
+        printf("%lf",absolute(z1));
         break;
 
         case 8:
