@@ -1,4 +1,5 @@
 #include<math.h>
+#include<stdio.h>
 #include"calc.h"
 
 const double pi=3.141592653;
