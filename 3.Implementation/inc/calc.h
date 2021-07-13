@@ -2,9 +2,8 @@
 #define __CALC_H__
 
 int i,ta,nm,m,ha,hb;
-float z1;
 long long int facto,la,lb;
-double a1,a2,su1,su2,mu1,mu2,div1,div2,sqr,pwr,xcos,xsin,xtan,xcosec,xsec,xcot,ab,len,bred,radi,sq_s,cube_s;
+double a1,a2,su1,su2,mu1,mu2,div1,div2,sqr,pwr,z1,xcos,xsin,xtan,xcosec,xsec,xcot,ab,len,bred,radi,sq_s,cube_s;
 
 int m;
 double add(double a,double b);
@@ -13,7 +12,7 @@ double mul(double a,double b);
 double divi(double a,double b);
 double square(double a);
 double power(double a,int n);
-int absolute(float a);
+double absolute(double a);
 long long int factorial(int n);
 double cos1(double x,int n);
 double sin1(double x);
