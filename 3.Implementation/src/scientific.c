@@ -1,6 +1,6 @@
-#include<stdio.h>
 #include<math.h>
 #include"calc.h"
+
 const double pi=3.141592653;
 
 double add(double a,double b)
@@ -40,9 +40,10 @@ double square(double a)
     sq=a*a;
     return sq;
 }
-double power(double a,int n)
+double power(double a,double n)
 {
-    return pow(a,n);
+    double x= pow(a,n);
+    return x;
 }
 double absolute(double a)
 {
@@ -124,12 +125,14 @@ long long int lcm(long long int a,long long int b)
         }
         ++max;
     }
+    return 0;
 }
 double logarithm(double a)
 {
-    double res;
-    res=log(a);
-    return res;
+    
+    double x= log(a);
+    return x;
+    
 }
 double circle(double r)
 {
@@ -147,13 +150,15 @@ double triangle(double l,double b)
 }
 double sq_root(double a)
 {
-    
-    return sqrt(a);
+    double x;
+    x=sqrt(a);
+    return x;
     
 }
 double cube_root(double a)
 {
    
-    return cbrt(a);
+    double x= cbrt(a);
+    return x;
     
 }
