@@ -11,7 +11,7 @@ double sub(double a,double b);
 double mul(double a,double b);
 double divi(double a,double b);
 double square(double a);
-double power(double a,int n);
+double power(double a,double n);
 double absolute(double a);
 long long int factorial(int n);
 double cos1(double x,int n);
