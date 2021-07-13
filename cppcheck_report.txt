@@ -1,10 +1,10 @@
-3.Implementation/src/scientific.c:121:11: style: Condition 'flag' is always true [knownConditionTrueFalse]
+3.Implementation/src/scientific.c:119:11: style: Condition 'flag' is always true [knownConditionTrueFalse]
     while(flag)
           ^
-3.Implementation/src/scientific.c:119:14: note: Assignment 'flag=1', assigned value is 1
+3.Implementation/src/scientific.c:117:14: note: Assignment 'flag=1', assigned value is 1
     int flag=1;
              ^
-3.Implementation/src/scientific.c:121:11: note: Condition 'flag' is always true
+3.Implementation/src/scientific.c:119:11: note: Condition 'flag' is always true
     while(flag)
           ^
 3.Implementation/src/scientific.c:35:12: error: Uninitialized variable: ans [uninitvar]
@@ -19,10 +19,10 @@
 3.Implementation/src/scientific.c:35:12: note: Uninitialized variable: ans
     return ans;
            ^
-3.Implementation/src/scientific.c:57:22: style: Variable 'fact' is assigned a value that is never used. [unreadVariable]
+3.Implementation/src/scientific.c:55:22: style: Variable 'fact' is assigned a value that is never used. [unreadVariable]
     unsigned int fact=1;
                      ^
-3.Implementation/src/scientific.c:66:6: style: Variable 'n' is assigned a value that is never used. [unreadVariable]
+3.Implementation/src/scientific.c:64:6: style: Variable 'n' is assigned a value that is never used. [unreadVariable]
     n=3;
      ^
 3.Implementation/unity/unity.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 42 configurations. Use --force to check all configurations. [toomanyconfigs]
