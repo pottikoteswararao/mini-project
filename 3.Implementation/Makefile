@@ -38,7 +38,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT) -lm
+	gcc -L $(SRC) $(INC) -o $(PROJECT_OUTPUT) -lm
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
@@ -50,7 +50,7 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	gcc -L $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT) -lm
 
 
