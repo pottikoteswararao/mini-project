@@ -42,15 +42,13 @@ double square(double a)
 }
 double power(double a,int n)
 {
-    double ans;
-    ans=pow(a,n);
-    return ans;
+    return pow(a,n);
 }
 double absolute(double a)
 {
-    double ans;
-    ans=fabs(a);
-    return ans;
+    
+    return fabs(a);
+    
 }
 long long int factorial(int n)
 {
@@ -149,13 +147,13 @@ double triangle(double l,double b)
 }
 double sq_root(double a)
 {
-    double sqt;
-    sqt=sqrt(a);
-    return sqt;
+    
+    return sqrt(a);
+    
 }
 double cube_root(double a)
 {
-    double cube;
-    cube=cbrt(a);
-    return cube;
+   
+    return cbrt(a);
+    
 }
