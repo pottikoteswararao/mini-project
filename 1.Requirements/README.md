@@ -29,4 +29,10 @@ The Scientific calculator doesn't involve any complex operations or any operatio
 | H03 | User should be able to perform Trigonometric, scientific and basic calculations | Implemented |
 
 # Low Level Requirements 
-| 
+| ID | Description | High level ID | Status |
+| --- | --- | --- | --- |
+| L01 | user can select options and enter arguments | H02 | Implemented
+| L02 | user can be able to do addition, subtraction, multiplication and division operations and gets result | H01 | Implemented |
+| L03 | user can be able to do sin, cos, tan ,cosec, sec and cot operations and gets result | H01 | Implemented |
+| L04 | user can be able to do circle, triangle, square, power, square and cube root, logarithmic, factorial operations and gets result | H01 | Implemented |
+
