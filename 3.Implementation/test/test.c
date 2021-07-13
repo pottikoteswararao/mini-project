@@ -1,5 +1,6 @@
 #include "unity.h"
 #include"test.h"
+#include"calc.h"
 
 #include "calc.h"
 #define PROJECT_NAME  "Calculator"
