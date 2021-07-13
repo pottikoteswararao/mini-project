@@ -4,21 +4,28 @@
 
 ## Git actions
 
-| Folder | Description |
-| --- | ---|
-| 1.Requirements | Project requirements |
-| 2.Design | project UML diagrams |
-| 3. Implementation | project implementation with code block |
-| 4. Test_plan | test plans |
+| Build | cppcheck | Gitinspector | codequality (Code inspector) |
+| --- | ---| --- | --- |
+| [![CI](https://github.com/pottikoteswararao/mini-project/actions/workflows/main.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/main.yml) | [![cppcheck-action-test](https://github.com/pottikoteswararao/mini-project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/cppcheck.yml) | [![Contribution Check - Git Inspector](https://github.com/pottikoteswararao/mini-project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/gitinspector.yml) | [![Code quality](https://www.code-inspector.com/project/25100/score/svg)](https://www.code-inspector.com)<br />[![Code Grade](https://www.code-inspector.com/project/25100/status/svg)](https://www.code-inspector.com) |
 
 ## Folder structure
 | Folder | Description |
 | --- | ---|
-| 1.Requirements | Project requirements |
-| 2.Design | project UML diagrams |
-| 3. Implementation | project implementation with code block |
-| 4. Test_plan | test plans |
+| `1.Requirements` | Project requirements |
+| `2.Design` | project UML diagrams |
+| `3.Implementation` | project implementation with code block |
+| `4.Test_plan` | test plans |
 
-[![Code quality](https://www.code-inspector.com/project/25100/score/svg)](https://www.code-inspector.com)
+## Contribution list and Summary
+| SF_ID | Name | Features | Issue Raised | Issues Resolved | Number of test cases | Test cases passes |
+| --- | --- | --- | --- | --- | --- | --- |
+| `303917` | Potti<br /> Koteswararao | S.No | NA | NA | 11 | 11| 
 
-[![Code Grade](https://www.code-inspector.com/project/25100/status/svg)](https://www.code-inspector.com)
+| S.No | Feature |
+|  --- | --- |
+| F01 | user selecting option for calculation |
+| F02 | Takes required arguments `(depends on operation selected)` |
+| F03 | Takes user input for addition, subtraction, multiplication, division, square and power |
+| F04 | Takes user input for trigonometric calculations |
+| F05 | Takes user  input for GCD, LCM, square root and cube root |
+| F06 | Displaying output based on user choice and input given |
