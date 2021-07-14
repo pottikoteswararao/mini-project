@@ -6,8 +6,35 @@ The Scientific calculator doesn't involve any complex operations or any operatio
 ## Defining our system
 ### Basic Architecture
 ![Untitled Workspace (2)](https://user-images.githubusercontent.com/86213638/125479071-fb62a34c-fc60-4009-8147-3496225da862.png)
+### This project is capable of performing
+* Basic calculation
+  * Addition
+  * Subtraction
+  * Multiplication
+  * Division 
+* Scientific calculation
+  * square
+  * power
+  * absolute
+  * square root
+  * cube root
+  * logarithm
+* Trigonometric calculation
+  * sin
+  * cos
+  * tan
+  * cosec
+  * sec
+  * cot
+* numerical calculation
+  * circle
+  * triangle
+  * GCD
+  * LCM
+  * factorial
 ## SWOT Analysis
 ![Capture](https://user-images.githubusercontent.com/86213638/125482458-1ca14d60-70b0-477b-822e-dfb0df47f935.PNG)
+
 # 4W's and 1'H
 ## Who:
 * Any student, developer or an enterprise organization those who are looking for an open-source scientific calculator can use. All the students and employess who requires the calculations will use the program to find their answer. The main objective of this project is the user should be satisfied with freindly interface and fast calculation.
