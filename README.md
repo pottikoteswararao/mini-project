@@ -4,9 +4,9 @@
 
 ## Git actions
 
-| Build | cppcheck | Gitinspector | codequality (Code inspector) |
-| --- | ---| --- | --- |
-| [![CI](https://github.com/pottikoteswararao/mini-project/actions/workflows/main.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/main.yml) | [![cppcheck-action-test](https://github.com/pottikoteswararao/mini-project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/cppcheck.yml) | [![Contribution Check - Git Inspector](https://github.com/pottikoteswararao/mini-project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/gitinspector.yml) | [![Code quality](https://www.code-inspector.com/project/25100/score/svg)](https://www.code-inspector.com)<br />[![Code Grade](https://www.code-inspector.com/project/25100/status/svg)](https://www.code-inspector.com) |
+| Build | cppcheck | unity | Gitinspector | codequality (Code inspector) |
+| --- | ---| --- | --- | --- |
+| [![CI](https://github.com/pottikoteswararao/mini-project/actions/workflows/main.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/main.yml) | [![cppcheck-action-test](https://github.com/pottikoteswararao/mini-project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/cppcheck.yml) | [![Unit Testing](https://github.com/pottikoteswararao/mini-project/actions/workflows/unity.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/unity.yml) | [![Contribution Check - Git Inspector](https://github.com/pottikoteswararao/mini-project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/pottikoteswararao/mini-project/actions/workflows/gitinspector.yml) | [![Code quality](https://www.code-inspector.com/project/25100/score/svg)](https://www.code-inspector.com)<br />[![Code Grade](https://www.code-inspector.com/project/25100/status/svg)](https://www.code-inspector.com) |
 
 ## Folder structure
 | Folder | Description |
