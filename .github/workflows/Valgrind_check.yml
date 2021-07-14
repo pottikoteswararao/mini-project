@@ -1,4 +1,4 @@
-name: Valgrind check
+name: Valgrind 
 
 on:
   push:
