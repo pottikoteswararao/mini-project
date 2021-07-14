@@ -153,14 +153,14 @@ double triangle(double l,double b)
 double sq_root(double a)
 {
     int x;
-    x=sqrtf(a);
+    x=sqrt(a);
     return x;
     
 }
 double cube_root(double a)
 {
    
-    int x=cbrtf(a);
+    int x=cbrt(a);
     return x;
     
 }
