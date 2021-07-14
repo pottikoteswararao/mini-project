@@ -22,4 +22,4 @@ jobs:
     - name: make test
       run: make test -C 3.Implementation/ 
     - name: make valgrind
-      run: valgrind ./3.Implementation/ Build
+      run: valgrind ./3.Implementation/ test
