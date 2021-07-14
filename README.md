@@ -1,5 +1,5 @@
 # Step-In mini project
-
+## scientific calculator
 ![image](https://user-images.githubusercontent.com/86213638/125403274-fcde5a80-e3d2-11eb-9559-4fe452343a5c.png)
 
 ## Git actions
