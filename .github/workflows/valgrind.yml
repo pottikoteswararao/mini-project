@@ -1,4 +1,4 @@
-name: Valgrind
+name: dynamic valgrind
 
 on:
   push:
