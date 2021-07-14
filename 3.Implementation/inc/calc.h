@@ -2,9 +2,6 @@
 #define __CALC_H__
 #include<math.h>
 #include<stdlib.h>
-int i,ta,nm,m,ha,hb;
-long long int facto,la,lb;
-double a1,a2,su1,su2,mu1,mu2,div1,div2,sqr,pwr,z1,xcos,xsin,xtan,xcosec,xsec,xcot,ab,len,bred,radi,sq_s,cube_s;
 
 int m;
 double add(double a,double b);
