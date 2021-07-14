@@ -20,6 +20,6 @@ jobs:
     - name: make build
       run: make all -C 3.Implementation/
     - name: make test
-      run: make test -C 3.Implementation/ test
+      run: make test -C 3.Implementation/ 
     - name: make valgrind
-      run: valgrind ./3.Implementation/ test
+      run: valgrind ./3_Implementation/CALCULATOR.out
